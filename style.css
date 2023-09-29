@@ -1,0 +1,60 @@
+/* Reset de estilos padrão */ 
+
+Body, h1, h2, p { 
+    Margin: 0; 
+    Padding: 0; 
+} 
+Body { 
+    Font-family: Arial, sans-serif; 
+    Text-align: center; 
+    Background-color: black; 
+    Color: white; 
+} 
+Header { 
+    Background-color: black; 
+    Color: white; 
+    Padding: 20px; 
+} 
+H1 { 
+    Font-size: 36px; 
+} 
+Main { 
+    Margin: 20px auto; 
+    Display: flex; 
+    Flex-wrap: wrap; 
+    Justify-content: space-around; 
+} 
+.ponto-turistico { 
+    Background-color: white; 
+    Color: black; 
+    Width: 300px; 
+    Margin: 20px; 
+    Padding: 20px; 
+    Text-align: center; 
+    Border-radius: 10px; 
+    Box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+} 
+Img { 
+    Max-width: 100%; 
+    Height: auto; 
+    Margin-bottom: 10px; 
+} 
+H2 { 
+    Font-size: 24px; 
+    Margin-bottom: 10px; 
+} 
+P { 
+    Font-size: 16px; 
+} 
+.voltar {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 20px;
+    align-content:center ;
+}
+.voltar:hover {
+    background-color: aquamarine;
+}
